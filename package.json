@@ -2,9 +2,9 @@
   "name": "cataloghetor",
   "version": "0.0.1",
   "description": "A wannabe full featured audio recordings organizer",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron src/main.js"
   },
   "repository": {
     "type": "git",
