@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photon</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../node_modules/photon-0.1.2-dist/css/photon.min.css">
+
+    <!-- Javascript -->
+    <script src="js/menu.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="window">
+
+      <!-- .toolbar-header sits at the top of your app -->
+      <header class="toolbar toolbar-header">
+  <!--<h1 class="title">Header with actions</h1>-->
+
+  <div class="toolbar-actions">
+    <div class="btn-group">
+      <button class="btn btn-default">
+        <span class="icon icon-to-start"></span>
+      </button>
+      <button class="btn btn-default">
+        <span class="icon icon-play"></span><!--<span class="icon icon-pause"></span>-->
+      </button>
+      <button class="btn btn-default">
+        <span class="icon icon-stop"></span>
+      </button>
+      <button class="btn btn-default active">
+        <span class="icon icon-loop"></span>
+      </button>
+      <button class="btn btn-default">
+        <span class="icon icon-to-end"></span>
+      </button>
+    </div>
+
+    <button class="btn btn-default">
+      <span class="icon icon-search"></span>
+      Filters
+    </button>
+
+    <button class="btn btn-default btn-dropdown pull-right">
+      <span class="icon icon-cog"></span>
+    </button>
+  </div>
+</header>
+
+      <!-- Your app's content goes inside .window-content -->
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane pane-sm sidebar">
+            <nav class="nav-group">
+
+              <h5 class="nav-group-title"><span class="icon icon-folder"></span> Libraries <button class="btn btn-mini btn-default">
+				<span class="icon icon-plus"></span>
+			</button></h5>
+              		
+              <span class="nav-group-item active">
+                <span class="icon icon-archive"></span>
+                Lib1
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-box"></span>
+                Lib2
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-box"></span>
+                Lib3
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-briefcase"></span>
+                Virtual (quick export as zip)
+              </span>
+              
+              <h5 class="nav-group-title"><span class="icon icon-tag"></span>  Tags</h5>
+              <span class="nav-group-item">
+                <span class="icon icon-record" style="color:#34c84a"></span> Nature
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-record" style="color:#fc605b"></span> Urban
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-record" style="color:#57acf5"></span> Water
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-record" style="color:#fdbc40"></span> Wild-track
+              </span>
+            </nav>
+          </div>
+
+          <div class="pane">
+            <table class="table-striped">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Rating</th>
+                  <th>Date</th>
+                  <th>Tags</th>
+                  <th>Author</th>
+                  <th>Vendor</th>
+                  <th>Model</th>
+                  <th>GPS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="icon icon-note"></span> audio.wav</td>
+                  <td><span style="color:#34c84a">Nature</span></span>, <span style="color:#57acf5">Water</span>, <span style="color:#fdbc40">Wild-track</span></td>
+                  <td><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star-empty"></span></td>
+                  <td>01/03/1234</td>
+                  <td>Alessio</td>
+                  <td>TASCAM</td>
+                  <td>DR-44wl</td>
+		  <td><span class="icon icon-location"></span></td>
+                </tr>
+
+                <tr>
+                  <td><span class="icon icon-note"></span> audio2.wav</td>
+                  <td><span style="color:#fc605b">Urban</span>, <span style="color:#fdbc40">Wild-track</span></td>
+                  <td><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star-empty"></span><span class="icon icon-star-empty"></span></td>
+                  <td>03/03/2016</td>
+                  <td>Alessio</td>
+                  <td>TASCAM</td>
+                  <td>DR-44wl</td>
+                  <td><span class="icon icon-location"></span></td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
