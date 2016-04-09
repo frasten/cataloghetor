@@ -1,0 +1,30 @@
+{
+  "name": "cataloghetor",
+  "version": "0.0.1",
+  "description": "A wannabe full featured audio recordings organizer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frasten/cataloghetor.git"
+  },
+  "keywords": [
+    "Cataloghetor",
+    "audio",
+    "samples",
+    "metadata",
+    "organizer",
+    "map"
+  ],
+  "author": "Andrea Piccinelli, Alessio Degani",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/frasten/cataloghetor/issues"
+  },
+  "homepage": "https://github.com/frasten/cataloghetor#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0"
+  }
+}
