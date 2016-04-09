@@ -1,2 +1,2 @@
 # cataloghetor
-A wannabe full featured audio recordings organizer
+A wannabe full featured audio recordings organizer.
